@@ -1,0 +1,20 @@
+{
+  "name": "@pnsk-lab/corsn",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": {
+    ".": "./client/mod.ts",
+    "./server": "./server/mod.ts",
+    "./server/deno": "./server/deno.ts"
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "tasks": {
+    "dev:server": "deno run --watch -NE server/deno.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.5"
+  }
+}
