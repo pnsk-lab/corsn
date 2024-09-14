@@ -8,6 +8,7 @@ Useful CORS proxy.
 - Use custom header like `User-Agent` and `Cookie`
 - Status Codes
 - Supported any methods
+- Tiny (minified ~1KB) client
 
 ## Installing
 
