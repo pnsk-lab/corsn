@@ -34,7 +34,7 @@ Or, you can simply use it on [esm.sh](https://esm.sh)
 ```ts
 import { createFetch } from '@pnsk-lab/corsn'
 
-const proxyFetch = createFetch('https://corsn.deno.dev') // or custom server
+const proxyFetch = createFetch('https://corsn.example.com') // or custom server
 
 await proxyFetch('https://example.com') // same as `fetch`
 ```
