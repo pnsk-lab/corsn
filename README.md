@@ -17,7 +17,7 @@ deno add @pnsk-lab/corsn
 bunx jsr add @pnsk-lan/corsn
 pnpm dlx jsr add @pnsk-lab/corsn
 yarn dlx jsr add @pnsk-lab/corsn
-npx jsr add @pnsk-lan/corsn
+npx jsr add @pnsk-lab/corsn
 ```
 
 Or, you can simply use it on [esm.sh](https://esm.sh)
