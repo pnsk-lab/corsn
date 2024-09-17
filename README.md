@@ -14,7 +14,7 @@ Useful CORS proxy.
 
 ```shell
 deno add @pnsk-lab/corsn
-bunx jsr add @pnsk-lan/corsn
+bunx jsr add @pnsk-lab/corsn
 pnpm dlx jsr add @pnsk-lab/corsn
 yarn dlx jsr add @pnsk-lab/corsn
 npx jsr add @pnsk-lab/corsn
